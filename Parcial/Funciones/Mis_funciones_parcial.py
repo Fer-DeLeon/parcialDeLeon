@@ -255,8 +255,8 @@ def mostrar_repeticion_notas(calificaciones: list)-> None:
         indice_materia = numero_materia - 1
         print("Repitencia de notas: ")
     
-        for estudiante in calificaciones:
-            nota = estudiante [indice_materia]
+        for fila in calificaciones:
+            nota = fila [indice_materia]
             if nota >= 1 and nota <= 10:
                 indice_nota = nota - 1
                 repeticion[indice_nota] += 1
