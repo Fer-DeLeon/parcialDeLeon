@@ -281,7 +281,6 @@ def menu(opciones:str)-> int:
 def impimir_un_dato(nombre:str, genero:str, legajo:str, calificaciones: list):
     print(f"{nombre}\t{genero}\t{legajo}\t{calificaciones}")
 
-
 def buscar_legajo(legajo_buscado: int, legajos:list)-> int:
     legajo_encontrado = -1
     for i in range (len(legajos)):
