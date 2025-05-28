@@ -138,7 +138,6 @@ def mostrar_datos_ordenados(nombres:list, generos:list, legajos:list, promedios:
         None
     """
     ordenar(nombres,generos,legajos,promedios,calificaciones)
-    print("NOMBRE\t\tGENERO\tLEGAJO\tPROMEDIOS\tCALIFICACIONES")
     mostrar_datos_con_promedios(nombres, generos, legajos, promedios, calificaciones)
 
 
